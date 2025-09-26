@@ -13,7 +13,7 @@ public enum TipoSangre {
     B_NEGATIVO("B-"),
     AB_POSITIVO("AB+"),
     AB_NEGATIVO("AB-"),
-    O_POSITIVI("O+"),
+    O_POSITIVO("O+"),
     O_NEGATIVO("O-");
 
     private final String descripcion;

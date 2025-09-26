@@ -7,7 +7,6 @@ import java.util.Objects;
 
 @Getter
 @ToString(of = {"nombre", "apellido", "dni", "fechaNacimiento", "tipoSangre"})
-@AllArgsConstructor(access = AccessLevel.PROTECTED)
 public abstract class Persona implements Serializable {
 
     @NonNull
